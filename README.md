@@ -22,3 +22,14 @@
         - Features compressed to 2 Principal components
         - Plotted HeatMap to visualise the principal Component vs feature
         
+        
+**Recommendation System**
+
+    Data - [Movie Lens Dataset]
+
+        - Visualisation done on the dataset
+        - Created Pivot table - userid vs title and ratings as data
+        - From Pivot table extracted Recommendation for 2 movies (starwars, liarliar)
+        - Using corrwith - to get the correlation in ratings for each movies similar to starwars and liarliar
+        - "Number of ratings' plays a role - so filtered on 'Greater than 100 ratings'
+        
