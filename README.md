@@ -13,3 +13,12 @@
         - Create 2 Clusters using KMeans clustering Algorithm
         - Since this is a labelled data, we can Evaluate our model. But in general case we wont have this step
         
+**PCA**
+
+    Data - [Cancer Data set from Scikit-learn]
+
+        - From 30 attributes in the dataset Find components that are most important and explain the most variance in the dataset
+        - Scaled Data (to single unit variance)
+        - Features compressed to 2 Principal components
+        - Plotted HeatMap to visualise the principal Component vs feature
+        
