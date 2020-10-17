@@ -32,4 +32,17 @@
         - From Pivot table extracted Recommendation for 2 movies (starwars, liarliar)
         - Using corrwith - to get the correlation in ratings for each movies similar to starwars and liarliar
         - "Number of ratings' plays a role - so filtered on 'Greater than 100 ratings'
-        
+
+**Natural Language Processing**
+
+    Data - [Spam sms dataset]
+
+        - Classify whether the sms is ham or spam.
+        - Install stopwords from nltk
+        - Visualize data - histogram on length of message. Good separation identified
+        - Remove punctuation and stopwords from messages
+        - Vecorize and get bag of words
+        - Term weighting and Normalization done using TfidfTransformer
+        - Train using NaiveBayes Classifier Algorithm
+        - Use Pipeline on train-test splitted data
+        - Predict and evaluate the model
