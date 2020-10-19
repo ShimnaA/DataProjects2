@@ -46,3 +46,13 @@
         - Train using NaiveBayes Classifier Algorithm
         - Use Pipeline on train-test splitted data
         - Predict and evaluate the model
+        
+   Data - [Yelp]
+
+        - Classify Yelp reviews as rated star 1 or star 5
+        - Exploratory data analysis. 
+        - Length of text follows same pattern for all stars, so not a good fit for analysis
+        - NLP Classification with MultinomialNB
+        - Evaluate model
+        - Pipeline and evaluate (Not better than the first)
+       
